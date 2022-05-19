@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(/images/lostback.jpg) #e1e1e1 no-repeat top center
+}
+.content {
+    max-width: 1020px;
+    margin: auto;
+    background-color: white;
+    margin-top: 75px;
+}
+.head-link {
+    display:block;
+    width:100%;
+    padding-top:250px;
+}
+/* навза класа - можна до багатьох обєктів застосовувать */
+.myheader {
+    font-size: 25px;
+}
+#site-title {
+    color:blue;
+    border: 3px solid red;
+}

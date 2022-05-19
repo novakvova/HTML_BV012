@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Привіт!</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dialog.css">
 </head>
 <body>
     <a href="tools.html" class="head-link"></a>
@@ -23,6 +24,36 @@
         <img src="images/4.jpg" alt="Наш коріш" width="400">
     
         <p class="myheader">Привіт</p>
+
+        <span class="button" id="clickMeButton">
+            Нажми мене
+        </span>
+        <br>
+        <h2>Hello Vova</h2>
     </div>
+
+    <div class="dialog" id="my_modal">
+        <header>
+            <div class="title">Вітання з Новим Роком!</div>
+            <div class="btn-close" id="btn_close">&times;</div>
+        </header>
+        <main>
+            <h1>Прокуратура відкрила провадження за фактом обстрілу росіянами населених пунктів на Дніпропетровщині</h1>
+            <p>
+                19 травня внаслідок ворожого обстрілу з артилерії села Велика Костромка Дніпропетровської області 
+                двоє цивільних отримали осколкові поранення, пошкоджено 20 будинків, господарські приміщення і транспортні засоби. 
+                Про це повідомляє Офіс генерального прокурора.
+            </p>
+        </main>
+        <footer>
+            <hr>
+            <div class="buttons">
+                <a href="#" class="danger">Хочу</a>
+                <a href="#">Давай завтра</a>
+            </div>
+        </footer>
+    </div>
+
 </body>
+<script src="js/modal.js"></script>
 </html>

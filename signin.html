@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="/">Чобот</a>
@@ -26,13 +27,13 @@
                         <a class="nav-link" aria-current="page" href="bpage.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="table.html">Таблиці</a>
+                        <a class="nav-link" href="table.html">Таблиці</a>
                     </li>
                 </ul>
 
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="signin.html">Вхід</a>
+                        <a class="nav-link active" href="signin.html">Вхід</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="register.html">Реєстрація</a>
@@ -43,40 +44,29 @@
     </nav>
     <main>
         <div class="container">
-            <h1>Таблиці</h1>
+
             <div class="row">
-                <table class="table table-bordered table-hover">
-                    <thead>
-                        <tr>
-                            <th>№</th>
-                            <th>First Name</th>
-                            <th>Last Name</th>
-                            <th>Телефон</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- tr>td*4 -->
-                        <tr>
-                            <td>1</td>
-                            <td>Павлов</td>
-                            <td>Іван</td>
-                            <td>099 98 98 765</td>
-                            <td>
-                                <button class="btn btn-info">info</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td colspan="2">Павлов Оксана</td>
-                            <td>099 90 98 765</td>
-                            <td>
-                                <button class="btn btn-danger">delete</button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="offset-md-3 col-md-6">
+                    <h1 class="text-center">Вхід на сайт</h1>
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Електронна пошта</label>
+                            <input type="email" class="form-control" name="email" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Пароль</label>
+                            <input type="password" class="form-control" name="password" id="password">
+                        </div>
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 end-0">
+                                <a href="register" class="btn btn-link ">Реєстрація</a>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Вхід</button>
+                    </form>
+                </div>
             </div>
+            
         </div>
     </main>
 

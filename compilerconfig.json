@@ -1,0 +1,22 @@
+﻿[
+  {
+    "outputFile": "css/SimpleSCSS.css",
+    "inputFile": "css/SimpleSCSS.scss"
+  },
+  {
+    "outputFile": "css/my_style.css",
+    "inputFile": "css/my_style.scss"
+  },
+  {
+    "outputFile": "css/scss/my_style.css",
+    "inputFile": "css/scss/my_style.scss"
+  },
+  {
+    "outputFile": "node_modules/bootstrap/scss/bootstrap.css",
+    "inputFile": "node_modules/bootstrap/scss/bootstrap.scss"
+  },
+  {
+    "outputFile": "css/bootstrap/scss/bootstrap.css",
+    "inputFile": "css/bootstrap/scss/bootstrap.scss"
+  }
+]

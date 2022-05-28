@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "bootstrap@5.1.3",
+      "destination": "lib/bootstrap/",
+      "files": [
+        "css/bootstrap.min.css",
+        "js/bootstrap.bundle.min.js"
+      ]
+    },
+    {
+      "library": "select2@4.0.13",
+      "destination": "lib/select2/"
+    },
+    {
+      "library": "jquery@3.6.0",
+      "destination": "lib/jquery/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "imask@6.4.2",
+      "destination": "lib/imask/",
+      "files": [
+        "dist/imask.min.js"
+      ]
+    }
+  ]
+}
